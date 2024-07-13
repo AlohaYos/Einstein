@@ -329,8 +329,8 @@ iEinsteinViewController ()
 	// iPad is 1024x768. This size, and some appropriate scaling factors, should be selectable from
 	// the 'Settings' panel.
 
-	static int widthLUT[] = { 320, 640, 384, 786, 640, 320, 750, 375, 1080, 540 };
-	static int heightLUT[] = { 480, 960, 512, 1024, 1136, 568, 1134, 567, 1920, 960 };
+	static int widthLUT[] = { 320, 640, 384, 786, 640, 320, 750, 375, 1080, 540 ,360, 834};
+	static int heightLUT[] = { 480, 960, 512, 1024, 1136, 568, 1134, 567, 1920, 960 , 700, 1194};
 
 	NSUserDefaults* prefs = [NSUserDefaults standardUserDefaults];
 	int index = [(NSNumber*) [prefs objectForKey:@"screen_resolution"] intValue];
